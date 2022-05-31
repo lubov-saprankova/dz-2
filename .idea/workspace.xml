@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35df051d-3530-4c92-96c6-d3958bb4358d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Home/Work/App/HomeWorkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/printThreeWords.java" afterDir="false" />
+    <list default="true" id="35df051d-3530-4c92-96c6-d3958bb4358d" name="Changes" comment="gi">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Home/Work/App/HomeWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/HomeWorkApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/printThreeWords.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/Home/Work/App/HomeWorkApp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Lesson1/HomeWorkApp.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +44,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/New/IdeaProjects/dz2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -54,13 +55,26 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HomeWorkApp">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.Work.App.HomeWorkApp" />
+      <option name="MAIN_CLASS_NAME" value="Lesson1.HomeWorkApp" />
       <module name="lesson2luba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.Work.App.*" />
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Main" />
+      <module name="lesson2luba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,7 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWorkApp" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Home.Work.App.HomeWorkApp" />
         <item itemvalue="Application.printThreeWords" />
       </list>
     </recent_temporary>
@@ -91,6 +106,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652974822521</updated>
     </task>
+    <task id="LOCAL-00001" summary="gi">
+      <created>1653235001141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653235001141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gi" />
+    <option name="LAST_COMMIT_MESSAGE" value="gi" />
   </component>
 </project>
