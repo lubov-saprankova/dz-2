@@ -1,4 +1,4 @@
-package Home.Work.App;
+package Lesson1;
 
    public class HomeWorkApp {
        public static void main(String[] args) {
