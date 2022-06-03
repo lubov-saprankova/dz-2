@@ -7,8 +7,6 @@ public class Main {
         fillArray();
         changeArray();
         fillDiagonal();
-        fillLen();
-        fillMaxMin();
     }
 
     // Заменить 0 на 1, 1 на 0;
