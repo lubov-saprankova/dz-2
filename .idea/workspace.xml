@@ -7,8 +7,6 @@
     <list default="true" id="35df051d-3530-4c92-96c6-d3958bb4358d" name="Changes" comment="Lesson5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654607914342</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson5">
+      <created>1654610459813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654610459813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
