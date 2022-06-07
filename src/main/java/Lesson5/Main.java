@@ -1,15 +1,20 @@
 package Lesson5;
 
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+            Employee[] employeeArray = new Employee[5];
+            employeeArray[0] = new Employee("Ivanov Ivan", "Java Developer", "java1@mail.ru", "89279111", 37000, 45);
+            employeeArray[1] = new Employee("Petrov Petr", "Teamlead", "teamdlead@mail.ru", "89279222", 39000, 44);
+            employeeArray[2] = new Employee("Morozov Kirill", "QA-Engineer", "qa1@mail.ru", "89279333", 38000, 35);
+            employeeArray[3] = new Employee("Danilov Nik", "Java Developer", "java2@mail.ru", "89279344", 38000, 35);
+            employeeArray[4] = new Employee("Dmitriev Dima", "QA-Engineer", "qa2@mail.ru", "89279555", 38000, 28);
 
-            Employee[] E = new Employee[5];
-
-            E[0] = new Employee("ivan ivanov", "Engineer", "ivanov@mailbox.com", "5675685685644", 120000, 36);
-            E[1] = new Employee("Antonio Banderas", "Actor", "banderaspapandreas@mail.ru", "8944389289", 100000, 50);
-            E[2] = new Employee("Chuck Norris", "Actor", "ChuckFu@yandex.ru", "856756755", 2000000, 78);
-            E[3] = new Employee("Silvestor Stalonij", "Actor", "RamboForeva@gmail.com", "8585858585", 1000000, 68);
-            E[4] = new Employee("Arnold Schwarznegger", "Actor", "janenegr@dmx.de", "453222534", 2500000, 70);
-
+            for (int i = 0; i < employeeArray.length; i++) {
+                if (employeeArray[i].getAge() > 40) {
+                    employeeArray[i].print();
+                }
+            }
         }
     }
+
+
